@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RBD.BusinesLogic\RBD.BusinesLogic.csproj" />
+    <ProjectReference Include="..\RBD.Data\RBD.Data.csproj" />
+  </ItemGroup>
+
+</Project>
