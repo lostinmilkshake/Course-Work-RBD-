@@ -14,14 +14,12 @@ namespace RBD.Data
         [Required]
         public Material Material { get; set; }
         
-        public float Strength { get; set; }
+        public int Strength { get; set; }
         
         public float Density { get; set; }
         
         public float Porosity { get; set; }
         
-        public int FireReistance { get; set; }
-        
-        public int WaterReistance { get; set; }
+        public float FireReistance { get; set; }
     }
 }

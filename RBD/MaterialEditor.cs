@@ -42,7 +42,6 @@ namespace RBD
                 densityBox.Text = CurrentMaterialCharacteristic.Density.ToString();
                 porosityBox.Text = CurrentMaterialCharacteristic.Porosity.ToString();
                 fireResistanceBox.Text = CurrentMaterialCharacteristic.FireReistance.ToString();
-                waterResistanceBox.Text = CurrentMaterialCharacteristic.WaterReistance.ToString();
             }
             else
             {
@@ -65,11 +64,10 @@ namespace RBD
 
             var newMaterialCharacteristic = new MaterialCharacteristic
             {
-                Strength = float.Parse(strengthBox.Text),
+                Strength = int.Parse(strengthBox.Text),
                 Density = float.Parse(densityBox.Text),
                 Porosity = float.Parse(porosityBox.Text),
-                FireReistance = int.Parse(fireResistanceBox.Text),
-                WaterReistance = int.Parse(waterResistanceBox.Text),
+                FireReistance = float.Parse(fireResistanceBox.Text),
             };
             
             if (CurrentMaterial == null)

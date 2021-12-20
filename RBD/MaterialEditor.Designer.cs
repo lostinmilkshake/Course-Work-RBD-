@@ -33,13 +33,11 @@
             this.densityBox = new System.Windows.Forms.TextBox();
             this.porosityBox = new System.Windows.Forms.TextBox();
             this.fireResistanceBox = new System.Windows.Forms.TextBox();
-            this.waterResistanceBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.saveButton = new System.Windows.Forms.Button();
             this.typesBox = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -82,13 +80,6 @@
             this.fireResistanceBox.Name = "fireResistanceBox";
             this.fireResistanceBox.Size = new System.Drawing.Size(100, 23);
             this.fireResistanceBox.TabIndex = 4;
-            // 
-            // waterResistanceBox
-            // 
-            this.waterResistanceBox.Location = new System.Drawing.Point(117, 223);
-            this.waterResistanceBox.Name = "waterResistanceBox";
-            this.waterResistanceBox.Size = new System.Drawing.Size(100, 23);
-            this.waterResistanceBox.TabIndex = 5;
             // 
             // label1
             // 
@@ -135,18 +126,9 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Fire resistance";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 220);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(93, 15);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Water resistance";
-            // 
             // saveButton
             // 
-            this.saveButton.Location = new System.Drawing.Point(142, 281);
+            this.saveButton.Location = new System.Drawing.Point(142, 252);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(75, 23);
             this.saveButton.TabIndex = 12;
@@ -158,7 +140,7 @@
             // 
             this.typesBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.typesBox.FormattingEnabled = true;
-            this.typesBox.Location = new System.Drawing.Point(117, 252);
+            this.typesBox.Location = new System.Drawing.Point(117, 223);
             this.typesBox.Name = "typesBox";
             this.typesBox.Size = new System.Drawing.Size(100, 23);
             this.typesBox.TabIndex = 13;
@@ -166,7 +148,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 252);
+            this.label7.Location = new System.Drawing.Point(12, 223);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(31, 15);
             this.label7.TabIndex = 14;
@@ -190,7 +172,7 @@
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(12, 281);
+            this.deleteButton.Location = new System.Drawing.Point(12, 252);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(75, 23);
             this.deleteButton.TabIndex = 17;
@@ -202,27 +184,25 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(239, 339);
+            this.ClientSize = new System.Drawing.Size(232, 297);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.descriptionBox);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.typesBox);
             this.Controls.Add(this.saveButton);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.waterResistanceBox);
             this.Controls.Add(this.fireResistanceBox);
             this.Controls.Add(this.porosityBox);
             this.Controls.Add(this.densityBox);
             this.Controls.Add(this.strengthBox);
             this.Controls.Add(this.nameBox);
             this.Name = "MaterialEditor";
-            this.Text = "MaterialEditor";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -235,13 +215,11 @@
         private System.Windows.Forms.TextBox densityBox;
         private System.Windows.Forms.TextBox porosityBox;
         private System.Windows.Forms.TextBox fireResistanceBox;
-        private System.Windows.Forms.TextBox waterResistanceBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button saveButton;
         private System.Windows.Forms.ComboBox typesBox;
         private System.Windows.Forms.Label label7;
